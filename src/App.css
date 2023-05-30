@@ -106,7 +106,7 @@
   border: none;
   user-select: none;
   text-align: center;
-  width: 200px;
+  width: calc(var(--index)*14);
   margin: 10px auto;
   background-color: rgb(241, 129, 37);
   color: rgb(255, 255, 255);
@@ -143,6 +143,16 @@ span{
     font-size: calc(var(--index)*1);
     margin: calc(var(--index)*1);
   }
+  li::before {
+    position: absolute;
+    content: 'pic';
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-image: url("../public/ul.jpg");
+    background-size: cover;
+    }
   p{
     font-size: calc(var(--index)*1.5);
     margin: calc(var(--index)*1.5);

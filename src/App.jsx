@@ -25,6 +25,7 @@ return(
   </div>
  </div>
 
+
 <article className='main-article'>
   <div className="main-article__title colorGrey">Весенний ретрит<br/> с 15 февраля  по 20 марта 2024 года</div>
   <div className='main-article__title colorOrange'>Маяпур, Пури, Вриндаван</div>
