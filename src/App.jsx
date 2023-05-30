@@ -1,6 +1,8 @@
 import './App.css';
 import React from 'react';
 import myVideo from './video/logo2.mp4';
+import Btn from './components/btn'
+
 
 
 function App() {
@@ -31,14 +33,6 @@ return(
   <div className='main-article__title colorOrange'>Маяпур, Пури, Вриндаван</div>
 </article>
 
-<div className="btn" >     
-<div></div>                 
-  <button className="btn2" >Есть вопрос? </button>
-  <div></div>
-  <a href="https://forms.gle/1tm9vXQ3JupHKWBcA" ><button className='btn2'>Оставить заявку</button></a>
-  <div></div>
-</div> 
-
 <center>               
 <h2><span>НЫРНУТЬ</span> в океан блаженства и <span>ПРОБУДИТЬ</span> духовную силу в обществе преданных</h2>
 </center> 
@@ -53,6 +47,8 @@ return(
   <img className='imgLi' src="/swami.jpg" alt="img"/>
   </div>
 </div>
+
+<Btn/>
 
 <div className='section__registration'>
 <div className=' '>
@@ -84,13 +80,7 @@ return(
   </ul>
 </div>
  
-<div className="btn" >     
-<div></div>                 
-  <button className="btn2" >Есть вопрос? </button>
-  <div></div>
-  <a href="https://forms.gle/1tm9vXQ3JupHKWBcA" ><button className='btn2'>Оставить заявку</button></a>
-  <div></div>
-</div>
+<Btn/>
 
 <div style={{backgroundColor: "#e0dfdf"}} className='GreyDiv'>
 <p>
@@ -174,6 +164,8 @@ return(
   <img className='border2storoni imgS' src="https://www.ahakimov.com/upfiles/info_line/444495001509460370.jpg" alt="img"/>
 </div>
 
+<Btn/>
+
 <div className='grid3col'>
   <img className='imgS' src="pic16.jpg" alt="img"/>
   <img className='imgS' src="pic17.jpg" alt="img"/>
@@ -194,6 +186,19 @@ return(
     <li>20 марта – отъезд группы</li>
   </ul>
 </div>
+
+<div>
+<h2 className='colorGrey'>ПЛАН ДЕЙСТВИЙ</h2>
+<ol>
+  <li>Заполнить заявку на сайте </li>
+  <li>Оплатить регистрационный взнос </li>
+  <li>С вами свяжутся и помогут с получением визы, авиабилетов</li>
+  <li>Предложат рассрочку с возможностью помесячной оплаты</li>
+  <li>В случае отмены с вашей стороны поездки - перечисленные средства возвращаются в течении 24 часов.</li>
+</ol>
+</div>
+
+<Btn/>
 
 
 
