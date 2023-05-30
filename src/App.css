@@ -12,6 +12,7 @@
 }
 .container{
   max-width: 1500px;
+  overflow-x: hidden;
 }
 .main-header{
   position: relative;
@@ -97,6 +98,7 @@
 .btn{
   display:grid;
   grid-template-columns: 2fr 1fr 0.1fr 1fr 2fr; 
+  margin: calc(var(--index)*1);
 }
 .btn2{
   padding: 10px;
@@ -129,32 +131,30 @@ span{
   width: 100%;
   position: relative;
   }
-  .imgLi{
+.imgLi{
     width: 100%;
   }
-  .section__registration{
-    position: relative;
-  }
-  ul {
-       
-  }
-  li{
-  
+.section__registration{
+    position: relative;  
+  } 
+li{
     font-size: calc(var(--index)*1);
     margin: calc(var(--index)*2);
   }
-   p{
+p{
     font-size: calc(var(--index)*1.5);
     margin: calc(var(--index)*1.5);
     text-align: center;
   }
-  .center-div{
+.center-div{
     border: 1px solid rgb(219, 216, 216); 
     width: 50%; 
     margin:calc(var(--index)*1.5) auto ;
     background-color: rgb(248, 248, 248);
     border-radius: 10px; 
-    box-shadow:5px 7px 15px rgb(150, 150, 150)  
+    box-shadow:5px 7px 15px rgb(150, 150, 150) ;
+    z-index: 2; 
+    position: relative;
   }
 h2{
   margin: calc(var(--index)*2);
@@ -162,17 +162,20 @@ h2{
 }
 .imgS{
   max-width: 100%;
-  box-shadow:5px 7px 15px rgb(150, 150, 150) 
+  box-shadow:5px 7px 15px rgb(150, 150, 150) ;  
 }
 .grid3col{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;  
+  z-index: 2;
+  position: relative;
 }
 .GreyDiv{
   padding-bottom: calc(var(--index)*1);
   padding-top: calc(var(--index)/10);
   margin-top: calc(var(--index)*1);
   margin-bottom: calc(var(--index)*1);
+  position: relative;
 }
 .grid2col{
   display: grid;
@@ -197,3 +200,60 @@ h2{
   font-size: calc(var(--index)*1); 
   line-height: 1.8;  
 }
+.Box{
+  z-index: 2; 
+  position: relative;
+}
+.img-Radhe{
+  position: absolute;
+  width: calc(var(--index)*17);
+  bottom: calc(var(--index));
+  right: calc(var(--index)*0.1);
+  z-index: 1;
+  opacity: .8;
+}
+.img-Spring{
+  position: absolute;
+  width: calc(var(--index)*20);
+  bottom: calc(var(--index)*1);
+  left: calc(var(--index)*1);
+  z-index: 1;
+ opacity: .8;
+}
+.img-Spring2{
+  position: absolute;
+  width: calc(var(--index)*10);
+  bottom: calc(var(--index)*.1);
+  left: calc(var(--index)*6);
+  z-index: 1;
+ opacity: .4;
+ transform: rotate(90deg);
+}
+.img-Spring3{
+  position: absolute;
+  width: calc(var(--index)*10);
+  bottom: calc(var(--index)*5);
+  left: calc(var(--index)*5);
+  z-index: 1;
+ opacity: .4;
+ transform: rotate(230deg);
+}
+.img-Spring4{
+  position: absolute;
+  width: calc(var(--index)*7);
+  bottom: calc(var(--index)*3);
+  right: calc(var(--index)*8);
+  z-index: 1;
+ opacity: .4;
+ transform: rotate(5deg);
+}
+.img-Spring5{
+  position: absolute;
+  width: calc(var(--index)*7);
+  bottom: calc(var(--index)*.1);
+  right: calc(var(--index)*8);
+  z-index: 1;
+ opacity: .4;
+ transform: rotate(50deg);
+}
+
