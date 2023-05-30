@@ -1,50 +1,40 @@
 import './App.css';
 import React from 'react';
 import myVideo from './video/logo2.mp4';
-import  gsap  from  "gsap" 
 
 
 function App() {
-        return(
-        <div className="app">
 
-<div className=''>
-    <img className='imgBanner' src="/banner.jpg" alt="img"/>
-<div className='container'>
-  <div className="main-header">
-  <h5 className='main-title'>      
-      Паломничество в Индию с <span className='textOrange'> Бхата Бхгатамрита Кешава Свами</span><br/>
-                      Февраль - Март 2024<br/>
-                      2 недели паломнического путешествия в <span className='textOrange'>Чарупати, Бомбей , Насик , Джуху</span>
-      
-    </h5>
-    <h5 className='main-title2'>Встреча с удивительным<br/>
-                            Кришной и Его преданными<br/>
-                            с   погружением  в духовную атмосферу<br/>
-                            в обществе преданных</h5>
+ 
+
+return(  
+ <div className='container'>
+
+<div className="main-header">
+  <div className="layers">
+
+    <div className="layers__header">
+      <div className="layers__title">Паломничество в Индию </div>
+      <div className="layers__caption">с Бхакта Бхагаватамрита Кешава Свами</div>
+    </div>
+
+    <div className='layer layers__base' style={{backgroundImage: "url('g4.jpg')"}}></div>
+    <div className='layer layers__middle' style={{backgroundImage: "url('')"}}></div>
+    <div className='layer layers__front' style={{backgroundImage: "url('')"}}></div>
+
   </div>
-</div>
  </div>
 
-<div className='portfolio'>
-  <div className="container">
-    <main className='gallery'>
-      <div className="gallery__left">
-        sdf
-      </div>
-      <div className="gallery__right">
-        sdf
-      </div>
-    </main>
-  </div>
-</div>
-
+<article className='main-article'>
+  <div className="main-article__title colorGrey">Весенний ретрит<br/> с 15 февраля  по 20 марта 2024 года</div>
+  <div className='main-article__title colorOrange'>Маяпур, Пури, Вриндаван</div>
+</article>
 
 <div className="btn" >     
 <div></div>                 
-  <button className="btn2" >Принять участие </button>
+  <button className="btn2" >Есть вопрос? </button>
   <div></div>
-  <button className="btn2" >Оставить заявку</button>
+  <a href="https://forms.gle/1tm9vXQ3JupHKWBcA" ><button className='btn2'>Оставить заявку</button></a>
   <div></div>
 </div> 
 
@@ -59,145 +49,182 @@ function App() {
         </video>
  </div> 
   <div>
-  <img src="/swami.jpg" alt="img"/>
+  <img className='imgLi' src="/swami.jpg" alt="img"/>
   </div>
 </div>
-       
-       <div className="lisection">
-        <h2 className=''>Пришло <span >ВРЕМЯ</span> совершить паломничество и</h2>
-         <div className='center-div'>
-         <ul>
-            <li>Погрузится в духовный мир</li>
-            <li>Наполниться духовной силой</li>
-            <li>Получить нектарное общение с преданными</li>
-            <li>Отдохнуть  в атмосфере благости</li>
-            <li>Расстаться с анартхами</li>
-          </ul>
-         </div>
-         <div className='grid3col'>
-          <img className='imgS' src="pic1.jpg" alt="img"/>
-          <img className='imgS' src="pic2.jpg" alt="img"/>
-          <img className='imgS' src="pic3.jpg" alt="img"/>
-        </div>
- <div>
-    <h2 >Паломничество с <span>ГУРУ</span> что будет :</h2>
-    <div className='center-div'>
-          <ul>
-            <li>2 недели погружения в атмостферу Индии</li>
-            <li>Душевные киртаны с духовным учителем и преданными</li>
-            <li>Джапа медитация с эффективными настройками</li>
-          </ul> 
-    </div>  
+
+<div className='section__registration'>
+<div className=' '>
+<p>
+<strong>Дорогие преданные!</strong><br/>  Хотя на дворе еще лето  2023 года,<br/> мы уже сегодня приглашаем Вас <strong>зарегистрироваться</strong> на Весенний Ретрит,
+</p>
 </div>
 
-
-<div>
-<div className='grid3col'>
-          <img className='imgS' src="pic4.jpg" alt="img"/>
-          <img className='imgS' src="pic5.jpg" alt="img"/>
-          <img className='imgS' src="pic6.jpg" alt="img"/>
-        </div>
-
-</div>
-</div>
-
-<h2><span>КАК</span> паломничество <span>ПОМОГАЕТ</span> в духовной жизни?</h2>
-
-<div className='grid2col'>
-<img src="https://hiasia.xyz/Uploads/Picture/NhuTran-184519024520-Elephanta-Island.jpg" className="border2storoni" alt="img"></img>
-<div>
+<div className='center-div'>
 <ul>
-  <li>Атмосфера паломничества — уникальное поле доверия, в котором происходит соприкосновение и раскрытие сердец, <strong>глубокое переживание опыта</strong> </li>
-   <li>Вы получите не просто новую информацию, а сделаете определенные шаги на практике.
-<strong> Ваша джапа и садхана улучшатся</strong>, а служение станет более осознанным и качественным</li>
-<li>Во время паломничества Вы <strong>очистите свое сердце</strong> от претензий и обид и наполните его духовной энергией, научитесь эффективно сотрудничать в отношениях с преданными, глубоко проживете полученные знания, которые станут вашим духовным опытом</li>
-<li>Вы пройдете новые практики и уже во время тренингов почувствуете новые силы и вдохновение.<strong> Сможете проработать свои слабые стороны и анартхи.</strong> Начнете развивать качества чистой преданности, которые так ждет от всех нас Господь.</li>
+  <li> чтобы вы могли заранее запланировать свой отпуск </li>
+  <li> принять участие в ретрите и забронировать проживание рядом с Гуру Махараджем</li>
+  <li> успеть приобрести авиабилеты по САМОЙ НИЗКОЙ ЦЕНЕ </li>
+</ul>
+</div>
+
+<div className='grid3col'>
+  <img className='imgS' src="pic10.jpg" alt="img"/>
+  <img className='imgS' src="pic11.jpg" alt="img"/>
+  <img className='imgS' src="pic12.jpg" alt="img"/>
+</div>
+
+<p><strong>ДЛЯ ЭТОГО:</strong></p>
+<div className="center-div">
+  <ul>
+    <li>Подайте заявку</li>
+    <li>Внесите регистрационный сбор в размере 3 000 рублей до 30 июня.</li>
+    <li>Приезжайте на ретрит 15 февраля 2024 года</li>
+  </ul>
+</div>
+ 
+<div className="btn" >     
+<div></div>                 
+  <button className="btn2" >Есть вопрос? </button>
+  <div></div>
+  <a href="https://forms.gle/1tm9vXQ3JupHKWBcA" ><button className='btn2'>Оставить заявку</button></a>
+  <div></div>
+</div>
+
+<div style={{backgroundColor: "#e0dfdf"}} className='GreyDiv'>
+<p>
+На ретритах с ГуруДевом всегда царит теплая семейная атмосфера, которая окутывает мудростью духовного учителя , заботой кураторов и вдохновением преданных.
+</p>
+
+<center>
+<div className='main-article__title colorOrange'>
+Программа нашего духовного путешествия насыщена: 
+</div>
+</center>
+
+<div className="center-div">
+<ul>
+  <li>совместным воспеванием джапы и киртана</li>
+  <li>интересными духовными встречами с учениками Шрилы Прабхупады и старших преданных</li>
+  <li>посещением святых мест Пури, Майпура, Вриндавана </li>
+  <li>и главное, что все это будет проходить под чутким руководством духовного учителя в святой Дхаме</li>
 </ul>
 </div>
 </div>
 
-
-
-<h2 className='textOrange'><>ЧТО</> Вас <>ОЖИДАЕТ</></h2>
 <div className='grid2col'>
-  <div>
-  <h2>Мы посетим такие <span>ГОРОДА</span> как:</h2>
-<div className='otstup'>
-<details>
-   <summary>Чаупати</summary>
-   <p>Или Чоупатти (англ. Chaupati) — известный пляж в Мумбаи. Расположен в городском округе Гиргаум в непосредственной близости от Марин-драйв. На Чаупати с особой пышностью ежегодно проводится индуистский фестиваль Ганеша-чатуртхи, в ходе которого верующие омывают божества Ганеши в Аравийском море. В переводе чаупати означает «четыре ручья» или «четыре канала».
-   </p>
-</details>
-
-<details>
-   <summary>Бомбей</summary>
-   <p>Или Мумбаи (англ. Mumbai), до 1995 года — Бомбе́й (англ. Bombay) — город на западе Индии, на побережье Аравийского моря. Административный центр штата Махараштра. Население — 12 422 373 человека по состоянию на 2011 год. Является наибольшим в стране по численности жителей.
-   </p>
-</details>
-
-<details>
-   <summary>Насик</summary>
-   <p>Или Нашик, расположенный на берегу священной реки Годавари, является одним из важнейших мест паломничества в индуизме и одним из наиболее священных городов Индии. Насик находится в северной части штата Махараштра в 160 км. от Мумбаи у гор Западные Гаты, на западном краю вулканического плато Декан.</p>
-</details>
-
-<details>
-   <summary>Джуху</summary>
-   <p> (произношение: [dʒuɦuː]) - пригород Мумбаи. Он известен своим обширным пляжем Джуху. Он окружен Аравийским морем на западе, Версовой на севере, Виле-Парле на востоке и Сантакрузом на юге. Джуху является одним из самых дорогих и богатых районов столичного региона и домом для многих знаменитостей Болливуда. 
-   </p>
-</details>
-</div>
-  </div>
-  <div>
-  <h2><span>ЗАЖИГАТЕЛЬНЫЕ</span> киртаны</h2>
-<img className="border2storoni" src="https://i.ytimg.com/vi/nDDfQ_dOsb0/maxresdefault.jpg" alt="img"/>
-  </div>
+  <img className='border2storoni imgS' src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Samadhi_Mandir_of_Srila_Prabhupada%2C_Mayapur_07102013_001.jpg/1199px-Samadhi_Mandir_of_Srila_Prabhupada%2C_Mayapur_07102013_001.jpg?20140521072643" alt="img"/>
+  
+  <h3 className='grid2col__h3R'>
+  С помощью  духовного общения вы очистите свое сердце от претензий и обид и наполните его духовной энергией, научитесь эффективно сотрудничать в отношениях с преданными, глубоко проживете полученные знания, которые станут вашим духовным опытом.
+  </h3>
 </div>
 
+<div className='grid2col'>
+  <h3 className='grid2col__h3L'>
+  В обществе преданных вы сможете проработать свои слабые стороны и анартхи. Начнете развивать качества чистой преданности, которые так ждет от всех нас духовный учитель.
+  </h3>
+
+  <img className='border2storoni imgS' src="https://static.tildacdn.com/tild3261-6134-4861-b565-613362626262/braj01.jpg" alt="img"/>
+</div>
+
+<center>
+<div className="main-article__title colorGrey" >
+Дорогие преданные! <br/>
+Напоминаем, что наше предложение действует <span className='colorOrange'>до 30 июня!</span> 
+</div>
+</center>
+
+<div className='grid3col'>
+  <img className='imgS' src="pic13.jpg" alt="img"/>
+  <img className='imgS' src="pic14.jpg" alt="img"/>
+  <img className='imgS' src="pic15.jpg" alt="img"/>
+</div>
+
+<p><strong>Кто может принять участие в ретрите</strong></p>
+
+
+<div className='center-div'>
+<ul>
+  <li>Преданные, которые едут получать первое  посвящение и пранама-мантру</li>
+  <li>Ученики ГуруДева</li>
+  <li>Близкие родственники преданных, друзья </li>
+</ul>
+</div>
 
 <div className='grid2col'>
-<div className="liSection2">
-<h2><span>БХАДЖАНЫ</span> с душой</h2>
-<div >
-<img className="border2storoni" src="pic7.jpg"  alt="img"></img>
-</div>   
-</div> 
+  <img className='border2storoni imgS' src="https://bhakti-space.ru/wp-content/uploads/2018/11/5cq7WaIahjQ.jpg" alt="img"/>
+  
+  <h3 className='grid2col__h3R'>
+  Желающие получить посвящение должны переслать весь пакет документов до 31.декабоя 2023 года  на эл.адрес : ..........и получить подтверждение, что документы получены, и вы включены в список преданных, которые будут получать пранаму или посвящение на ретрите.
+  </h3>
+</div>
 
+<div className='grid2col'>  
+  <h3 className='grid2col__h3R'>
+    <p>ПЕРЕЧЕНЬ ДОКУМЕНТОВ</p>
+    <ol>
+      <li>Сертификат о прохождении курса «Ученик в ИСККОН» </li>
+      <li>Рекомендация от ятры</li>
+      <li>Успешная сдача теста </li>
+    </ol>
+  </h3>
 
+  <img className='border2storoni imgS' src="https://www.ahakimov.com/upfiles/info_line/444495001509460370.jpg" alt="img"/>
+</div>
 
-<div className="1liSection">
-        <h2 >Особенно <span>ЯРКИЕ</span> впечатления </h2>
-        
- <div >
- <ul>
-    <li>Святые места</li>
-    <li>Эффективные практики</li>
-    <li>Бесценные знания</li>
+<div className='grid3col'>
+  <img className='imgS' src="pic16.jpg" alt="img"/>
+  <img className='imgS' src="pic17.jpg" alt="img"/>
+  <img className='imgS' src="pic18.jpg" alt="img"/>
+</div>
+
+<h2 className='colorOrange'>РАСПИСАНИЕ</h2>
+<div className='center-div'>
+  <ul>
+    <li>15 февраля – заезд группы в Маяпур</li>
+    <li>16-22 февраля – Маяпур</li>
+    <li>23 февраля – переезд из Маяпура в Ремуну</li>
+    <li>24-25 февраля – Ремуна</li>
+    <li>26 февраля – переезд в Пури</li>
+    <li>27 февраля – 6 марта – Пури</li>
+    <li>7 марта – переезд во Вриндаван</li>
+    <li>8-19 марта – Вриндаван</li>
+    <li>20 марта – отъезд группы</li>
   </ul>
+</div>
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
  </div>
-</div>
-</div>
-
-<h3 >МЫ БУДЕМ <span>ОЧЕНЬ</span> ВАМ РАДЫ!!!</h3>
-<div className='grid3col2'>
-  <div></div>
-<img className="border2storoni" src="https://i.ytimg.com/vi/4w85Ya_KGhk/maxresdefault.jpg"  alt="img"></img>
-<div></div>
-</div>
-
-<h3 >ВАМ ЭТО <span>НУЖНО</span>!!! </h3>               
-
-
-
-
-<footer >
-<div>
-<p>По всем вопросам пишите/звоните: </p>
- <p>+7(777)777-77-77</p>
-</div>
-<p>Спасибо что Вы с нами!</p>
- </footer>
-
-</div>)
+)
         
 }
 export default App
