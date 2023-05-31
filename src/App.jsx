@@ -1,9 +1,16 @@
 import './App.css';
-import React from 'react';
+import React, { useEffect } from 'react';
 import myVideo from './video/logo2.mp4';
 import Btn from './components/btn'
 
 function App() {
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      let scrollY = window.scrollY;
+      document.documentElement.style.setProperty("--scrollTop", `${scrollY}px`);
+    });
+  },[]);
 
 return(  
   <div className='container'>
@@ -20,8 +27,8 @@ return(
   
      
       <div className='layer layers__base' style={{backgroundImage: "url('g4.jpg')"}}></div>
-      <div className='layer layers__middle' style={{backgroundImage: "url('')"}}></div>
-      <div className='layer layers__front' style={{backgroundImage: "url('')"}}></div>
+      <div className='layer layers__middle' style={{backgroundImage: "url('middle.png')"}}></div>
+      <div className='layer layers__front' style={{backgroundImage: "url('front.png')"}}></div>
   
     </div>
    </div>

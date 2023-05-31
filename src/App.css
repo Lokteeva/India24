@@ -46,24 +46,24 @@
   z-index: 2;
 }
 .layers__base{
-  transform: translate3d(0, calc(var(--scrollTop)/2.5),0);
+  transform: translate3d(0, calc(var(--scrollTop)/1.6),0);
   z-index: 0;
   position: absolute;
 }
 .layers__middle{
-  transform: translate3d(0, calc(var(--scrollTop)/3.5),0);
+  transform: translate3d(0, calc(var(--scrollTop)/2.5),0);
 }
 .layers__front{
   transform: translate3d(0, calc(var(--scrollTop)/5),0);
 }
 .layers__header{
   z-index: 1;
-  transform: translate3d(0, calc(var(--scrollTop)/4),0);
+  transform: translate3d(0, calc(var(--scrollTop)/3),0);
   will-change: transform;
   text-transform: uppercase;
   font-weight: 900;
   color: var(--color-header);
-  margin-top: calc(var(--index)*7);
+  margin-top: calc(var(--index)* -4.5);
 }
 .layers__title{
   font-size: calc(var(--index)*2.5);
