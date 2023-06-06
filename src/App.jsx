@@ -231,7 +231,9 @@ return(
   </div>
   
   <Btn/>
-  
+  <center>
+  <a href="http://dukhovnayasemya.tilda.ws/pay" ><button className='btn3'>Забронировать</button></a>
+  </center>
   
   
   
