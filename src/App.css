@@ -282,7 +282,10 @@ h2{
  opacity: .4;
  transform: rotate(50deg);
 }
-
+a{
+  text-decoration: none;
+  color: red
+}
 
 @media (min-width:451px){
   .telefon{
