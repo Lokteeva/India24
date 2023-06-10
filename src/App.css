@@ -284,13 +284,13 @@ h2{
 }
 
 
-@media (min-width:321px){
+@media (min-width:451px){
   .telefon{
     display: none;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 450px) {
   .center-div{    
     width: 90%;     
   }
